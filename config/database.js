@@ -70,8 +70,7 @@
 //   };
 // };
 
-
-
+// for rds postgres
 module.exports = ({ env }) => ({
   connection: {
     client: "postgres",
